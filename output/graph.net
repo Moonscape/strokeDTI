@@ -1,0 +1,1606 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d36" for="edge" attr.name="target_name" attr.type="string" />
+  <key id="d35" for="edge" attr.name="source_name" attr.type="string" />
+  <key id="d34" for="edge" attr.name="type" attr.type="string" />
+  <key id="d33" for="edge" attr.name="modification" attr.type="string" />
+  <key id="d32" for="edge" attr.name="indirect" attr.type="long" />
+  <key id="d31" for="edge" attr.name="effect" attr.type="long" />
+  <key id="d30" for="node" attr.name="degree_centrality" attr.type="double" />
+  <key id="d29" for="node" attr.name="fold_change" attr.type="double" />
+  <key id="d28" for="node" attr.name="ens_gene" attr.type="string" />
+  <key id="d27" for="node" attr.name="Gene name" attr.type="string" />
+  <key id="d26" for="node" attr.name="Feature" attr.type="double" />
+  <key id="d25" for="node" attr.name="Strand" attr.type="string" />
+  <key id="d24" for="node" attr.name="End" attr.type="long" />
+  <key id="d23" for="node" attr.name="Start" attr.type="long" />
+  <key id="d22" for="node" attr.name="Chromosome" attr.type="string" />
+  <key id="d21" for="node" attr.name="P-adj" attr.type="double" />
+  <key id="d20" for="node" attr.name="P-value" attr.type="double" />
+  <key id="d19" for="node" attr.name="Wald-Stats" attr.type="double" />
+  <key id="d18" for="node" attr.name="StdErr" attr.type="double" />
+  <key id="d17" for="node" attr.name="log2(FC)" attr.type="double" />
+  <key id="d16" for="node" attr.name="Base mean" attr.type="double" />
+  <key id="d15" for="node" attr.name="GeneID" attr.type="string" />
+  <key id="d14" for="node" attr.name="name_y" attr.type="string" />
+  <key id="d13" for="node" attr.name="sequences" attr.type="string" />
+  <key id="d12" for="node" attr.name="Ens" attr.type="string" />
+  <key id="d11" for="node" attr.name="1" attr.type="string" />
+  <key id="d10" for="node" attr.name="0" attr.type="string" />
+  <key id="d9" for="node" attr.name="fgcolor" attr.type="string" />
+  <key id="d8" for="node" attr.name="bgcolor" attr.type="string" />
+  <key id="d7" for="node" attr.name="shape" attr.type="string" />
+  <key id="d6" for="node" attr.name="width" attr.type="double" />
+  <key id="d5" for="node" attr.name="height" attr.type="double" />
+  <key id="d4" for="node" attr.name="y" attr.type="double" />
+  <key id="d3" for="node" attr.name="x" attr.type="double" />
+  <key id="d2" for="node" attr.name="type" attr.type="string" />
+  <key id="d1" for="node" attr.name="aliases" attr.type="string" />
+  <key id="d0" for="node" attr.name="name_x" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Tnfrsf1a">
+      <data key="d0">Tnfrsf1a</data>
+      <data key="d1">Tnfrsf1a, CD120a, FPF, TNF-R, TNF-R-I, TNF-R1, TNF-R55, TNF-alphaR1, TNFAR, TNFR60, TNFRI, TNFRp55, TNFalpha-R1, Tnfr-2, Tnfr1, p55, p55-R</data>
+      <data key="d2">gene</data>
+      <data key="d3">159.0</data>
+      <data key="d4">207.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:21937</data>
+      <data key="d12">ENSMUSG00000030341</data>
+      <data key="d13">MGLPTVPGLLLSLVLLALLMGIHPSGVTGLVPSLGDREKRDSLCPQGKYVHSKNNSICCTKCHKGTYLVSDCPSPGRDTVCRECEKGTFTASQNYLRQCLSCKTCRKEMSQVEISPCQADKDTVCGCKENQFQRYLSETHFQCVDCSPCFNGTVTIPCKETQNTVCNCHAGFFLRESECVPCSHCKKNEECMKLCLPPPLANVTNPQDSGTAVLLPLVILLGLCLLSFIFISLMCRYPRWRPEVYSIICRDPVPVKEEKAGKPLTPAPSPAFSPTSGFNPTLGFSTPGFSSPVSSTPISPIFGPSNWHFMPPVSEVVPTQGADPLLYESLCSVPAPTSVQKWEDSAHPQRPDNADLAILYAVVDGVPPARWKEFMRFMGLSEHEIERLEMQNGRCLREAQYSMLEAWRRRTPRHEDTLEVVGLVLSKMNLAGCLENILEALRNPAPSSTTRLPR</data>
+      <data key="d14">Tnfrsf1a</data>
+      <data key="d15">ENSMUSG00000030341.17</data>
+      <data key="d16">218.18461724418</data>
+      <data key="d17">2.35188658412225</data>
+      <data key="d18">0.197166593983626</data>
+      <data key="d19">11.9284232516466</data>
+      <data key="d20">8.4152319348857e-33</data>
+      <data key="d21">2.5141106493466396e-30</data>
+      <data key="d22">chr6</data>
+      <data key="d23">125349361</data>
+      <data key="d24">125362484</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Tnfrsf1a</data>
+      <data key="d28">ENSMUSG00000030341</data>
+      <data key="d29">5.104913742383359</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Ripk1">
+      <data key="d0">Ripk1</data>
+      <data key="d1">Ripk1, D330015H01Rik, RIP, RIP-1, Rinp, Rip1</data>
+      <data key="d2">gene</data>
+      <data key="d3">586.0</data>
+      <data key="d4">330.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:19766</data>
+      <data key="d12">ENSMUSG00000021408</data>
+      <data key="d13">MQPDMSLDNIKMASSDLLEKTDLDSGGFGKVSLCYHRSHGFVILKKVYTGPNRAEYNEVLLEEGKMMHRLRHSRVVKLLGIIIEEGNYSLVMEYMEKGNLMHVLKTQIDVPLSLKGRIIVEAIEGMCYLHDKGVIHKDLKPENILVDRDFHIKIADLGVASFKTWSKLTKEKDNKQKEVSSTTKKNNGGTLYYMAPEHLNDINAKPTEKSDVYSFGIVLWAIFAKKEPYENVICTEQFVICIKSGNRPNVEEILEYCPREIISLMERCWQAIPEDRPTFLGIEEEFRPFYLSHFEEYVEEDVASLKKEYPDQSPVLQRMFSLQHDCVPLPPSRSNSEQPGSLHSSQGLQMGPVEESWFSSSPEYPQDENDRSVQAKLQEEASYHAFGIFAEKQTKPQPRQNEAYNREEERKRRVSHDPFAQQRARENIKSAGARGHSDPSTTSRGIAVQQLSWPATQTVWNNGLYNQHGFGTTGTGVWYPPNLSQMYSTYKTPVPETNIPGSTPTMPYFSGPVADDLIKYTIFNSSGIQIGNHNYMDVGLNSQPPNNTCKEESTSRHQAIFDNTTSLTDEHLNPIRENLGRQWKNCARKLGFTESQIDEIDHDYERDGLKEKVYQMLQKWLMREGTKGATVGKLAQALHQCCRIDLLNHLIRASQS</data>
+      <data key="d14">Ripk1</data>
+      <data key="d15">ENSMUSG00000021408.15</data>
+      <data key="d16">47.5058847291336</data>
+      <data key="d17">1.47504981712236</data>
+      <data key="d18">0.201999863914519</data>
+      <data key="d19">7.30223173688156</data>
+      <data key="d20">2.83033236226751e-13</data>
+      <data key="d21">1.21717224933564e-11</data>
+      <data key="d22">chr13</data>
+      <data key="d23">34002362</data>
+      <data key="d24">34037147</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ripk1</data>
+      <data key="d28">ENSMUSG00000021408</data>
+      <data key="d29">2.7799324307563262</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Fadd">
+      <data key="d0">Fadd</data>
+      <data key="d1">Fadd, Mort1/FADD</data>
+      <data key="d2">gene</data>
+      <data key="d3">652.0</data>
+      <data key="d4">254.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:14082</data>
+      <data key="d12">ENSMUSG00000031077</data>
+      <data key="d13">MDPFLVLLHSLSGSLSGNDLMELKFLCRERVSKRKLERVQSGLDLFTVLLEQNDLERGHTGLLRELLASLRRHDLLQRLDDFEAGTATAAPPGEADLQVAFDIVCDNVGRDWKRLARELKVSEAKMDGIEEKYPRSLSERVRESLKVWKNAEKKNASVAGLVKALRTCRLNLVADLVEEAQESVSKSENMSPVLRDSTVSSSETP</data>
+      <data key="d14">Fadd</data>
+      <data key="d15">ENSMUSG00000031077.7</data>
+      <data key="d16">10.7972743330688</data>
+      <data key="d17">1.2051295415092</data>
+      <data key="d18">0.35447127348436</data>
+      <data key="d19">3.39979465659681</data>
+      <data key="d20">0.0006743647642023</data>
+      <data key="d21">0.0046178750208789</data>
+      <data key="d22">chr7</data>
+      <data key="d23">144577317</data>
+      <data key="d24">144582463</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Fadd</data>
+      <data key="d28">ENSMUSG00000031077</data>
+      <data key="d29">2.30557970537613</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Casp8">
+      <data key="d0">Casp8</data>
+      <data key="d1">Casp8, CASP-8, FLICE, MACH, Mch5</data>
+      <data key="d2">gene</data>
+      <data key="d3">701.0</data>
+      <data key="d4">276.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:12370</data>
+      <data key="d12">ENSMUSG00000026029</data>
+      <data key="d13">MDFQSCLYAIAEELGSEDLAALKFLCLDYIPHKKQETIEDAQKLFLRLREKGMLEEGNLSFLKELLFHISRWDLLVNFLDCNREEMVRELRDPDNAQISPYRVMLFKLSEEVSELELRSFKFLLNNEIPKCKLEDDLSLLEIFVEMEKRTMLAENNLETLKSICDQVNKSLLGKIEDYERSSTERRMSLEGREELPPSVLDEMSLKMAELCDSPREQDSESRTSDKVYQMKNKPRGYCLIINNHDFSKAREDITQLRKMKDRKGTDCDKEALSKTFKELHFEIVSYDDCTANEIHEILEGYQSADHKNKDCFICCILSHGDKGVVYGTDGKEASIYDLTSYFTGSKCPSLSGKPKIFFIQACQGSNFQKGVPDEAGFEQQNHTLEVDSSSHKNYIPDEADFLLGMATVKNCVSYRDPVNGTWYIQSLCQSLRERCPQGDDILSILTGVNYDVSNKDDRRNKGKQMPQPTFTLRKKLFFPP</data>
+      <data key="d14">Casp8</data>
+      <data key="d15">ENSMUSG00000026029.14</data>
+      <data key="d16">13.6246242295409</data>
+      <data key="d17">2.45506660700845</data>
+      <data key="d18">0.369844429446557</data>
+      <data key="d19">6.63810621855861</data>
+      <data key="d20">3.1773887367778e-11</data>
+      <data key="d21">1.03543407220718e-09</data>
+      <data key="d22">chr1</data>
+      <data key="d23">58795373</data>
+      <data key="d24">58847503</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Casp8</data>
+      <data key="d28">ENSMUSG00000026029</data>
+      <data key="d29">5.4833843734876435</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Tnfrsf10b">
+      <data key="d0">Tnfrsf10b</data>
+      <data key="d1">Tnfrsf10b, DR5, KILLER, Ly98, MK, TRAILR2, TRICK2A, TRICK2B, TRICKB</data>
+      <data key="d2">gene</data>
+      <data key="d3">617.0</data>
+      <data key="d4">276.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:21933</data>
+      <data key="d12">ENSMUSG00000022074</data>
+      <data key="d13">MEPPGPSTPTASAAARADHYTPGLRPLPKRRLLYSFALLLAVLQAVFVPVTANPAHNRPAGLQRPEESPSRGPCLAGQYLSEGNCKPCREGIDYTSHSNHSLDSCILCTVCKEDKVVETRCNITTNTVCRCKPGTFEDKDSPEICQSCSNCTDGEEELTSCTPRENRKCVSKTAWASWHKLGLWIGLLVPVVLLIGALLVWKTGAWRQWLLCIKRGCERDPESANSVHSSLLDRQTSSTTNDSNHNTEPGKTQKTGKKLLVPVNGNDSADDLKFIFEYCSDIVPFDSWNRLMRQLGLTDNQIQMVKAETLVTREALYQMLLKWRHQTGRSASINHLLDALEAVEERDAMEKIEDYAVKSGRFTYQNAAAQPETGPGGSQCV</data>
+      <data key="d14">Tnfrsf10b</data>
+      <data key="d15">ENSMUSG00000022074.6</data>
+      <data key="d16">13.5868704608982</data>
+      <data key="d17">1.61600080062398</data>
+      <data key="d18">0.330828751872405</data>
+      <data key="d19">4.88470482531471</data>
+      <data key="d20">1.03583913483937e-06</data>
+      <data key="d21">1.5191096652802e-05</data>
+      <data key="d22">chr14</data>
+      <data key="d23">69767471</data>
+      <data key="d24">69784411</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Tnfrsf10b</data>
+      <data key="d28">ENSMUSG00000022074</data>
+      <data key="d29">3.065241621471712</data>
+      <data key="d30">0.125</data>
+    </node>
+    <node id="Fas">
+      <data key="d0">Fas</data>
+      <data key="d1">Fas, APO1, APT1, CD95, TNFR6, Tnfrsf6, lpr</data>
+      <data key="d2">gene</data>
+      <data key="d3">201.0</data>
+      <data key="d4">185.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04210</data>
+      <data key="d11">mmu:14102</data>
+      <data key="d12">ENSMUSG00000024778</data>
+      <data key="d13">MLWIWAVLPLVLAGSQLRVHTQGTNSISESLKLRRRVRETDKNCSEGLYQGGPFCCQPCQPGKKKVEDCKMNGGTPTCAPCTEGKEYMDKNHYADKCRRCTLCDEEHGLEVETNCTLTQNTKCKCKPDFYCDSPGCEHCVRCASCEHGTLEPCTATSNTNCRKQSPRNRLWLLTILVLLIPLVFIYRKYRKRKCWKRRQDDPESRTSSRETIPMNASNLSLSKYIPRIAEDMTIQEAKKFARENNIKEGKIDEIMHDSIQDTAEQKVQLLLCWYQSHGKSDAYQDLIKGLKKAECRRTLDKFQDMVQKDLGKSTPDTGNENEGQCLE</data>
+      <data key="d14">Fas</data>
+      <data key="d15">ENSMUSG00000024778.13</data>
+      <data key="d16">16.5893413564135</data>
+      <data key="d17">1.6710380786755</data>
+      <data key="d18">0.299832653178338</data>
+      <data key="d19">5.57323580658035</data>
+      <data key="d20">2.50050742127478e-08</data>
+      <data key="d21">5.07207678963332e-07</data>
+      <data key="d22">chr19</data>
+      <data key="d23">34290665</data>
+      <data key="d24">34327772</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Fas</data>
+      <data key="d28">ENSMUSG00000024778</data>
+      <data key="d29">3.184436444424454</data>
+      <data key="d30">0.08333333333333333</data>
+    </node>
+    <node id="Tnf">
+      <data key="d0">Tnf</data>
+      <data key="d1">Tnf, DIF, TNF-a, TNF-alpha, TNFSF2, TNFalpha, Tnfa, Tnfsf1a, Tnlg1f</data>
+      <data key="d2">gene</data>
+      <data key="d3">68.0</data>
+      <data key="d4">207.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:21926</data>
+      <data key="d12">ENSMUSG00000024401</data>
+      <data key="d13">MSTESMIRDVELAEEALPQKMGGFQNSRRCLCLSLFSFLLVAGATTLFCLLNFGVIGPQRDEKFPNGLPLISSMAQTLTLRSSSQNSSDKPVAHVVANHQVEEQLEWLSQRANALLANGMDLKDNQLVVPADGLYLVYSQVLFKGQGCPDYVLLTHTVSRFAISYQEKVNLLSAVKSPCPKDTPEGAELKPWYEPIYLGGVFQLEKGDQLSAEVNLPKYLDFAESGQVYFGVIAL</data>
+      <data key="d14">Tnf</data>
+      <data key="d15">ENSMUSG00000024401.14</data>
+      <data key="d16">1.77033964232287</data>
+      <data key="d17">1.86136662959477</data>
+      <data key="d18">0.502597501991738</data>
+      <data key="d19">3.70349359520964</data>
+      <data key="d20">0.0002126505526756</data>
+      <data key="d21">0.0016948022134552</data>
+      <data key="d22">chr17</data>
+      <data key="d23">35199380</data>
+      <data key="d24">35202007</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Tnf</data>
+      <data key="d28">ENSMUSG00000024401</data>
+      <data key="d29">3.633516932939485</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Ctsb">
+      <data key="d0">Ctsb</data>
+      <data key="d1">Ctsb, CB...</data>
+      <data key="d2">gene</data>
+      <data key="d3">514.0</data>
+      <data key="d4">558.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04210</data>
+      <data key="d11">mmu:13030</data>
+      <data key="d12">ENSMUSG00000021939</data>
+      <data key="d13">MWWSLILLSCLLALTSAHDKPSFHPLSDDLINYINKQNTTWQAGRNFYNVDISYLKKLCGTVLGGPKLPGRVAFGEDIDLPETFDAREQWSNCPTIGQIRDQGSCGSCWAFGAVEAISDRTCIHTNGRVNVEVSAEDLLTCCGIQCGDGCNGGYPSGAWSFWTKKGLVSGGVYNSHVGCLPYTIPPCEHHVNGSRPPCTGEGDTPRCNKSCEAGYSPSYKEDKHFGYTSYSVSNSVKEIMAEIYKNGPVEGAFTVFSDFLTYKSGVYKHEAGDMMGGHAIRILGWGVENGVPYWLAANSWNLDWGDNGFFKILRGENHCGIESEIVAGIPRTDQYWGRF</data>
+      <data key="d14">Ctsb</data>
+      <data key="d15">ENSMUSG00000021939.8</data>
+      <data key="d16">1636.16921228789</data>
+      <data key="d17">1.41073647254516</data>
+      <data key="d18">0.168033195786481</data>
+      <data key="d19">8.39558199165462</data>
+      <data key="d20">4.6359216067483104e-17</data>
+      <data key="d21">3.00157983163862e-15</data>
+      <data key="d22">chr14</data>
+      <data key="d23">63122461</data>
+      <data key="d24">63145923</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ctsb</data>
+      <data key="d28">ENSMUSG00000021939</data>
+      <data key="d29">2.6587285198473114</data>
+      <data key="d30">0.08333333333333333</data>
+    </node>
+    <node id="Birc3">
+      <data key="d0">Birc3</data>
+      <data key="d1">Birc3, Api1, Api2, Birc2, C-IAP2, HIAP2, IAP1, IAP2, MIAP1, MIAP2, MIHB, MIHC, RNF49, cIAP-1, cIAP-2, cIAP1, cIAP2...</data>
+      <data key="d2">gene</data>
+      <data key="d3">351.0</data>
+      <data key="d4">183.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:11796</data>
+      <data key="d12">ENSMUSG00000032000</data>
+      <data key="d13">MNMVQDSAFLAKLMKSADTFELKYDFSCELYRLSTYSAFPRGVPVSERSLARAGFYYTGANDKVKCFCCGLMLDNWKQGDSPMEKHRKLYPSCNFVQTLNPANSLEASPRPSLPSTAMSTMPLSFASSENTGYFSGSYSSFPSDPVNFRANQDCPALSTSPYHFAMNTEKARLLTYETWPLSFLSPAKLAKAGFYYIGPGDRVACFACDGKLSNWERKDDAMSEHQRHFPSCPFLKDLGQSASRYTVSNLSMQTHAARIRTFSNWPSSALVHSQELASAGFYYTGHSDDVKCFCCDGGLRCWESGDDPWVEHAKWFPRCEYLLRIKGQEFVSQVQAGYPHLLEQLLSTSDSPEDENADAAIVHFGPGESSEDVVMMSTPVVKAALEMGFSRSLVRQTVQWQILATGENYRTVSDLVIGLLDAEDEMREEQMEQAAEEEESDDLALIRKNKMVLFQHLTCVTPMLYCLLSARAITEQECNAVKQKPHTLQASTLIDTVLAKGNTAATSFRNSLREIDPALYRDIFVQQDIRSLPTDDIAALPMEEQLRKLQEERMCKVCMDREVSIVFIPCGHLVVCKDCAPSLRKCPICRGTIKGTVRTFLS</data>
+      <data key="d14">Birc3</data>
+      <data key="d15">ENSMUSG00000032000.17</data>
+      <data key="d16">12.1379926813267</data>
+      <data key="d17">1.333516771313</data>
+      <data key="d18">0.317150132186768</data>
+      <data key="d19">4.20468615957474</data>
+      <data key="d20">2.61444677493784e-05</data>
+      <data key="d21">0.0002690744360446</data>
+      <data key="d22">chr9</data>
+      <data key="d23">7848698</data>
+      <data key="d24">7873186</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Birc3</data>
+      <data key="d28">ENSMUSG00000032000</data>
+      <data key="d29">2.52016251686922</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Casp6">
+      <data key="d0">Casp6</data>
+      <data key="d1">Casp6, CASP-6, Mch2</data>
+      <data key="d2">gene</data>
+      <data key="d3">987.0</data>
+      <data key="d4">294.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04210</data>
+      <data key="d11">mmu:12368</data>
+      <data key="d12">ENSMUSG00000027997</data>
+      <data key="d13">MTETDGFYKSREVFDPAEQYKMDHKRRGVALIFNHERFFWHLTLPERRGTNADRDNLTRRFSDLGFEVKCFNDLRAEELLLKIHEVSTSSHIDADCFICVFLSHGEGNHVYAYDAKIEIQTLTGLFKGDKCQSLVGKPKIFIIQACRGSQHDVPVVPLDMVDHQTDKLDNVTQVDAASVYTLPAGADFLMCYSVAEGYYSHRETVNGSWYIQDLCEMLARYGSSLEFTELLTLVNRKVSQRRVDFCKDPDAIGKKQVPCFASMLTKKLHFCPKPSK</data>
+      <data key="d14">Casp6</data>
+      <data key="d15">ENSMUSG00000027997.9</data>
+      <data key="d16">25.2321239361898</data>
+      <data key="d17">1.16913911736748</data>
+      <data key="d18">0.235134527697474</data>
+      <data key="d19">4.97221368897259</data>
+      <data key="d20">6.61926853946379e-07</data>
+      <data key="d21">1.01561821691714e-05</data>
+      <data key="d22">chr3</data>
+      <data key="d23">129901424</data>
+      <data key="d24">129914103</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Casp6</data>
+      <data key="d28">ENSMUSG00000027997</data>
+      <data key="d29">2.2487746837714817</data>
+      <data key="d30">0.08333333333333333</data>
+    </node>
+    <node id="Actb">
+      <data key="d0">Actb</data>
+      <data key="d1">Actb, Actx, E430023M04Rik, beta-actin...</data>
+      <data key="d2">gene</data>
+      <data key="d3">1164.0</data>
+      <data key="d4">190.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04210</data>
+      <data key="d11">mmu:11461</data>
+      <data key="d12">ENSMUSG00000029580</data>
+      <data key="d13">MDDDIAALVVDNGSGMCKAGFAGDDAPRAVFPSIVGRPRHQGVMVGMGQKDSYVGDEAQSKRGILTLKYPIEHGIVTNWDDMEKIWHHTFYNELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCYVALDFEQEMATAASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMESCGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF</data>
+      <data key="d14">Actb</data>
+      <data key="d15">ENSMUSG00000029580.14</data>
+      <data key="d16">15446.7527709535</data>
+      <data key="d17">1.223718056481</data>
+      <data key="d18">0.161758228166232</data>
+      <data key="d19">7.56510546853565</data>
+      <data key="d20">3.87550033020338e-14</data>
+      <data key="d21">1.8546530527584298e-12</data>
+      <data key="d22">chr5</data>
+      <data key="d23">142903114</data>
+      <data key="d24">142906754</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Actb</data>
+      <data key="d28">ENSMUSG00000029580</data>
+      <data key="d29">2.335478325936742</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Casp7">
+      <data key="d0">Casp7</data>
+      <data key="d1">Casp7, CMH-1, ICE-IAP3, Mch3, caspase-7, mCASP-7</data>
+      <data key="d2">gene</data>
+      <data key="d3">987.0</data>
+      <data key="d4">350.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04210</data>
+      <data key="d11">mmu:12369</data>
+      <data key="d12">ENSMUSG00000025076</data>
+      <data key="d13">MTDDQDCAAELEKVDSSSEDGVDAKPDRSSIISSILLKKKRNASAGPVRTGRDRVPTYLYRMDFQKMGKCIIINNKNFDKATGMDVRNGTDKDAGALFKCFQNLGFEVTVHNDCSCAKMQDLLRKASEEDHSNSACFACVLLSHGEEDLIYGKDGVTPIKDLTAHFRGDRCKTLLEKPKLFFIQACRGTELDDGIQADSGPINDIDANPRNKIPVEADFLFAYSTVPGYYSWRNPGKGSWFVQALCSILNEHGKDLEIMQILTRVNDRVARHFESQSDDPRFNEKKQIPCMVSMLTKELYFSR</data>
+      <data key="d14">Casp7</data>
+      <data key="d15">ENSMUSG00000025076.11</data>
+      <data key="d16">15.7899974473061</data>
+      <data key="d17">1.26823636336922</data>
+      <data key="d18">0.347389650473497</data>
+      <data key="d19">3.65076035408825</data>
+      <data key="d20">0.0002614651168452</data>
+      <data key="d21">0.0020323434613982</data>
+      <data key="d22">chr19</data>
+      <data key="d23">56397128</data>
+      <data key="d24">56442344</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Casp7</data>
+      <data key="d28">ENSMUSG00000025076</data>
+      <data key="d29">2.4086693535253163</data>
+      <data key="d30">0.08333333333333333</data>
+    </node>
+    <node id="Casp12">
+      <data key="d0">Casp12</data>
+      <data key="d1">Casp12</data>
+      <data key="d2">gene</data>
+      <data key="d3">893.0</data>
+      <data key="d4">172.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04210</data>
+      <data key="d11">mmu:12364</data>
+      <data key="d12">ENSMUSG00000025887</data>
+      <data key="d13">MAARRTHERDPIYKIKGLAKDMLDGVFDDLVEKNVLNGDELLKIGESASFILNKAENLVENFLEKTDMAGKIFAGHIANSQEQLSLQFSNDEDDGPQKICTPSSPSESKRKVEDDEMEVNAGLAHESHLMLTAPHGLQSSEVQDTLKLCPRDQFCKIKTERAKEIYPVMEKEGRTRLALIICNKKFDYLFDRDNADTDILNMQELLENLGYSVVLKENLTAQEMETELMQFAGRPEHQSSDSTFLVFMSHGILEGICGVKHRNKKPDVLHDDTIFKIFNNSNCRSLRNKPKILIMQACRGRYNGTIWVSTNKGIATADTDEERVLSCKWNNSITKAHVETDFIAFKSSTPHNISWKVGKTGSLFISKLIDCFKKYCWCYHLEEIFRKVQHSFEVPGELTQMPTIERVSMTRYFYLFPGN</data>
+      <data key="d14">Casp12</data>
+      <data key="d15">ENSMUSG00000025887.10</data>
+      <data key="d16">10.5578925516333</data>
+      <data key="d17">1.59956434536012</data>
+      <data key="d18">0.360649304151411</data>
+      <data key="d19">4.43523480275058</data>
+      <data key="d20">9.19719892730886e-06</data>
+      <data key="d21">0.0001067375256197</data>
+      <data key="d22">chr9</data>
+      <data key="d23">5345429</data>
+      <data key="d24">5373032</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Casp12</data>
+      <data key="d28">ENSMUSG00000025887</data>
+      <data key="d29">3.030517860914663</data>
+      <data key="d30">0.08333333333333333</data>
+    </node>
+    <node id="Nlrp3">
+      <data key="d0">Nlrp3</data>
+      <data key="d1">Nlrp3, AGTAVPRL, AII/AVP, Cias1, FCAS, FCU, MWS, Mmig1, NALP3, Pypaf1</data>
+      <data key="d2">gene</data>
+      <data key="d3">985.0</data>
+      <data key="d4">581.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:216799</data>
+      <data key="d12">ENSMUSG00000032691</data>
+      <data key="d13">MTSVRCKLAQYLEDLEDVDLKKFKMHLEDYPPEKGCIPVPRGQMEKADHLDLATLMIDFNGEEKAWAMAVWIFAAINRRDLWEKAKKDQPEWNDTCTSHSSMVCQEDSLEEEWMGLLGYLSRISICKKKKDYCKMYRRHVRSRFYSIKDRNARLGESVDLNSRYTQLQLVKEHPSKQEREHELLTIGRTKMRDSPMSSLKLELLFEPEDGHSEPVHTVVFQGAAGIGKTILARKIMLDWALGKLFKDKFDYLFFIHCREVSLRTPRSLADLIVSCWPDPNPPVCKILRKPSRILFLMDGFDELQGAFDEHIGEVCTDWQKAVRGDILLSSLIRKKLLPKASLLITTRPVALEKLQHLLDHPRHVEILGFSEAKRKEYFFKYFSNELQAREAFRLIQENEVLFTMCFIPLVCWIVCTGLKQQMETGKSLAQTSKTTTAVYVFFLSSLLQSRGGIEEHLFSDYLQGLCSLAADGIWNQKILFEECDLRKHGLQKTDVSAFLRMNVFQKEVDCERFYSFSHMTFQEFFAAMYYLLEEEAEGETVRKGPGGCSDLLNRDVKVLLENYGKFEKGYLIFVVRFLFGLVNQERTSYLEKKLSCKISQQVRLELLKWIEVKAKAKKLQWQPSQLELFYCLYEMQEEDFVQSAMDHFPKIEINLSTRMDHVVSSFCIKNCHRVKTLSLGFFHNSPKEEEEERRGGRPLDQVQCVFPDTHVACSSRLVNCCLTSSFCRGLFSSLSTNRSLTELDLSDNTLGDPGMRVLCEALQHPGCNIQRLWLGRCGLSHQCCFDISSVLSSSQKLVELDLSDNALGDFGIRLLCVGLKHLLCNLQKLWLVSCCLTSACCQDLALVLSSNHSLTRLYIGENALGDSGVQVLCEKMKDPQCNLQKLGLVNSGLTSICCSALTSVLKTNQNFTHLYLRSNALGDTGLRLLCEGLLHPDCKLQMLELDNCSLTSHSCWNLSTILTHNHSLRKLNLGNNDLGDLCVVTLCEVLKQQGCLLQSLQLGEMYLNRETKRALEALQEEKPELTIVFEISW</data>
+      <data key="d14">Nlrp3</data>
+      <data key="d15">ENSMUSG00000032691.14</data>
+      <data key="d16">12.1124237955144</data>
+      <data key="d17">1.61027626596156</data>
+      <data key="d18">0.337720219271961</data>
+      <data key="d19">4.76807775807119</data>
+      <data key="d20">1.85992001564511e-06</data>
+      <data key="d21">2.56912201368468e-05</data>
+      <data key="d22">chr11</data>
+      <data key="d23">59541567</data>
+      <data key="d24">59566956</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Nlrp3</data>
+      <data key="d28">ENSMUSG00000032691</data>
+      <data key="d29">3.0531030097169123</data>
+      <data key="d30">0.1111111111111111</data>
+    </node>
+    <node id="Pycard">
+      <data key="d0">Pycard</data>
+      <data key="d1">Pycard, 9130417A21Rik, Asc, CARD5, TMS-1, TNS1, masc</data>
+      <data key="d2">gene</data>
+      <data key="d3">985.0</data>
+      <data key="d4">598.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:66824</data>
+      <data key="d12">ENSMUSG00000030793</data>
+      <data key="d13">MGRARDAILDALENLSGDELKKFKMKLLTVQLREGYGRIPRGALLQMDAIDLTDKLVSYYLESYGLELTMTVLRDMGLQELAEQLQTTKEESGAVAAAASVPAQSTARTGHFVDQHRQALIARVTEVDGVLDALHGSVLTEGQYQAVRAETTSQDKMRKLFSFVPSWNLTCKDSLLQALKEIHPYLVMDLEQS</data>
+      <data key="d14">Pycard</data>
+      <data key="d15">ENSMUSG00000030793.4</data>
+      <data key="d16">106.827157872269</data>
+      <data key="d17">2.06175341273379</data>
+      <data key="d18">0.251859493310184</data>
+      <data key="d19">8.18612546875327</data>
+      <data key="d20">2.69770486013959e-16</data>
+      <data key="d21">1.62585307608355e-14</data>
+      <data key="d22">chr7</data>
+      <data key="d23">127989707</data>
+      <data key="d24">127993867</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Pycard</data>
+      <data key="d28">ENSMUSG00000030793</data>
+      <data key="d29">4.174934063674593</data>
+      <data key="d30">0.1111111111111111</data>
+    </node>
+    <node id="Casp1">
+      <data key="d0">Casp1</data>
+      <data key="d1">Casp1, ICE, Il1bc</data>
+      <data key="d2">gene</data>
+      <data key="d3">985.0</data>
+      <data key="d4">615.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:12362</data>
+      <data key="d12">ENSMUSG00000025888</data>
+      <data key="d13">MADKILRAKRKQFINSVSIGTINGLLDELLEKRVLNQEEMDKIKLANITAMDKARDLCDHVSKKGPQASQIFITYICNEDCYLAGILELQSAPSAETFVATEDSKGGHPSSSETKEEQNKEDGTFPGLTGTLKFCPLEKAQKLWKENPSEIYPIMNTTTRTRLALIICNTEFQHLSPRVGAQVDLREMKLLLEDLGYTVKVKENLTALEMVKEVKEFAACPEHKTSDSTFLVFMSHGIQEGICGTTYSNEVSDILKVDTIFQMMNTLKCPSLKDKPKVIIIQACRGEKQGVVLLKDSVRDSEEDFLTDAIFEDDGIKKAHIEKDFIAFCSSTPDNVSWRHPVRGSLFIESLIKHMKEYAWSCDLEDIFRKVRFSFEQPEFRLQMPTADRVTLTKRFYLFPGH</data>
+      <data key="d14">Casp1</data>
+      <data key="d15">ENSMUSG00000025888.6</data>
+      <data key="d16">10.7389725661676</data>
+      <data key="d17">1.03985185764945</data>
+      <data key="d18">0.344502474584381</data>
+      <data key="d19">3.01841622154953</data>
+      <data key="d20">0.002540996482104</data>
+      <data key="d21">0.0141291835762407</data>
+      <data key="d22">chr9</data>
+      <data key="d23">5298507</data>
+      <data key="d24">5307290</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Casp1</data>
+      <data key="d28">ENSMUSG00000025888</data>
+      <data key="d29">2.0560165215412813</data>
+      <data key="d30">0.16666666666666666</data>
+    </node>
+    <node id="Tlr4">
+      <data key="d0">Tlr4</data>
+      <data key="d1">Tlr4, Lps, Ly87, Ran/M1, Rasl2-8</data>
+      <data key="d2">gene</data>
+      <data key="d3">159.0</data>
+      <data key="d4">410.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:21898</data>
+      <data key="d12">ENSMUSG00000039005</data>
+      <data key="d13">MMPPWLLARTLIMALFFSCLTPGSLNPCIEVVPNITYQCMDQKLSKVPDDIPSSTKNIDLSFNPLKILKSYSFSNFSELQWLDLSRCEIETIEDKAWHGLHHLSNLILTGNPIQSFSPGSFSGLTSLENLVAVETKLASLESFPIGQLITLKKLNVAHNFIHSCKLPAYFSNLTNLVHVDLSYNYIQTITVNDLQFLRENPQVNLSLDMSLNPIDFIQDQAFQGIKLHELTLRGNFNSSNIMKTCLQNLAGLHVHRLILGEFKDERNLEIFEPSIMEGLCDVTIDEFRLTYTNDFSDDIVKFHCLANVSAMSLAGVSIKYLEDVPKHFKWQSLSIIRCQLKQFPTLDLPFLKSLTLTMNKGSISFKKVALPSLSYLDLSRNALSFSGCCSYSDLGTNSLRHLDLSFNGAIIMSANFMGLEELQHLDFQHSTLKRVTEFSAFLSLEKLLYLDISYTNTKIDFDGIFLGLTSLNTLKMAGNSFKDNTLSNVFANTTNLTFLDLSKCQLEQISWGVFDTLHRLQLLNMSHNNLLFLDSSHYNQLYSLSTLDCSFNRIETSKGILQHFPKSLAFFNLTNNSVACICEHQKFLQWVKEQKQFLVNVEQMTCATPVEMNTSLVLDFNNSTCYMYKTIISVSVVSVIVVSTVAFLIYHFYFHLILIAGCKKYSRGESIYDAFVIYSSQNEDWVRNELVKNLEEGVPRFHLCLHYRDFIPGVAIAANIIQEGFHKSRKVIVVVSRHFIQSRWCIFEYEIAQTWQFLSSRSGIIFIVLEKVEKSLLRQQVELYRLLSRNTYLEWEDNPLGRHIFWRRLKNALLDGKASNPEQTAEEEQETATWT</data>
+      <data key="d14">Tlr4</data>
+      <data key="d15">ENSMUSG00000039005.13</data>
+      <data key="d16">12.1485602853623</data>
+      <data key="d17">1.55568645178286</data>
+      <data key="d18">0.312074303337707</data>
+      <data key="d19">4.98498734161844</data>
+      <data key="d20">6.19658696216389e-07</data>
+      <data key="d21">9.60631750479863e-06</data>
+      <data key="d22">chr4</data>
+      <data key="d23">66827583</data>
+      <data key="d24">66930284</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Tlr4</data>
+      <data key="d28">ENSMUSG00000039005</data>
+      <data key="d29">2.9397356957028467</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Ticam2">
+      <data key="d0">Ticam2</data>
+      <data key="d1">Ticam2, B430113A10, TICAM-2, TRAM, Tirp, Trif</data>
+      <data key="d2">gene</data>
+      <data key="d3">257.0</data>
+      <data key="d4">410.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:225471</data>
+      <data key="d12">ENSMUSG00000056130</data>
+      <data key="d13">MGVGKSKLDKCPLSWHKKDSVDADQDGHESDSKNSEEACLRGFVEQSSGSEPPTGEQDQPEAKGAGPEEQDEEEFLKFVILHAEDDTDEALRVQDLLQNDFGIRPGIVFAEMPCGRLHLQNLDDAVNGSAWTILLLTENFLRDTWCNFQFYTSLMNSVSRQHKYNSVIPMRPLNSPLPRERTPLALQTINALEEESQGFSTQVERIFRESVFERQQSIWKETRSVSQKQFIA</data>
+      <data key="d14">Ticam2</data>
+      <data key="d15">ENSMUSG00000056130.10</data>
+      <data key="d16">16.8677729840853</data>
+      <data key="d17">3.23238932081186</data>
+      <data key="d18">0.391230966679196</data>
+      <data key="d19">8.26209987478414</data>
+      <data key="d20">1.43131863045499e-16</data>
+      <data key="d21">8.935273587673192e-15</data>
+      <data key="d22">chr18</data>
+      <data key="d23">46557290</data>
+      <data key="d24">46574533</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ticam2</data>
+      <data key="d28">ENSMUSG00000056130</data>
+      <data key="d29">9.398231602581333</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Ticam1">
+      <data key="d0">Ticam1</data>
+      <data key="d1">Ticam1, TICAM-1, TRIF</data>
+      <data key="d2">gene</data>
+      <data key="d3">351.0</data>
+      <data key="d4">410.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:106759</data>
+      <data key="d12">ENSMUSG00000047123</data>
+      <data key="d13">MDNPGPSLRGAFGILGALERDRLTHLKHKLGSLCSGSQESKLLHAMVLLALGQDTEARVSLESLKMNTVAQLVAHQWADMETTEGPEEPPDLSWTVARLYHLLAEENLCPASTRDMAYQVALRDFASQGDHQLGQLQNEAWDRCSSDIKGDPSGFQPLHSHQGSLQPPSASPAVTRSQPRPIDTPDWSWGHTLHSTNSTASLASHLEISQSPTLAFLSSHHGTHGPSKLCNTPLDTQEPQLVPEGCQEPEEISWPPSVETSVSLGLPHEISVPEVSPEEASPILPDALAAPDTSVHCPIECTELSTNSRSPLTSTTESVGKQWPITSQRSPQVPVGDDSLQNTTSSSPPAQPPSLQASPKLPPSPLSSASSPSSYPAPPTSTSPVLDHSETSDQKFYNFVVIHARADEQVALRIREKLETLGVPDGATFCEEFQVPGRGELHCLQDAIDHSGFTILLLTASFDCSLSLHQINHALMNSLTQSGRQDCVIPLLPLECSQAQLSPDTTRLLHSIVWLDEHSPIFARKVANTFKTQKLQAQRVRWKKAQEARTLKEQSIQLEAERQNVAAISAAYTAYVHSYRAWQAEMNKLGVAFGKNLSLGTPTPSWPGCPQPIPSHPQGGTPVFPYSPQPPSFPQPPCFPQPPSFPQPPSFPLPPVSSPQSQSFPSASSPAPQTPGPQPLIIHHAQMVQLGVNNHMWGHTGAQSSDDKTECSENPCMGPLTDQGEPLLETPE</data>
+      <data key="d14">Ticam1</data>
+      <data key="d15">ENSMUSG00000047123.8</data>
+      <data key="d16">27.1525462978948</data>
+      <data key="d17">1.12623367806044</data>
+      <data key="d18">0.263238312630566</data>
+      <data key="d19">4.27838055488914</data>
+      <data key="d20">1.88257965828451e-05</data>
+      <data key="d21">0.0002013830608373</data>
+      <data key="d22">chr17</data>
+      <data key="d23">56269318</data>
+      <data key="d24">56276786</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ticam1</data>
+      <data key="d28">ENSMUSG00000047123</data>
+      <data key="d29">2.1828812939392286</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Eif2ak2">
+      <data key="d0">Eif2ak2</data>
+      <data key="d1">Eif2ak2, 2310047A08Rik, 4732414G15Rik, Pkr, Prkr, Tik</data>
+      <data key="d2">gene</data>
+      <data key="d3">459.0</data>
+      <data key="d4">364.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:19106</data>
+      <data key="d12">ENSMUSG00000024079</data>
+      <data key="d13">MASDTPGFYMDKLNKYRQMHGVAITYKELSTSGPPHDRRFTFQVLIDEKEFPEAKGRSKQEARNAAAKLAVDILDNENKVDCHTSASEQGLFVGNYIGLVNSFAQKKKLSVNYEQCEPNSELPQRFICKCKIGQTMYGTGSGVTKQEAKQLAAKEAYQKLLKSPPKTAGTSSSVVTSTFSGFSSSSSMTSNGVSQSAPGSFSSENVFTNGLGENKRKSGVKVSPDDVQRNKYTLDARFNSDFEDIEEIGLGGFGQVFKAKHRIDGKRYAIKRVKYNTEKAEHEVQALAELNHVNIVQYHSCWEGVDYDPEHSMSDTSRYKTRCLFIQMEFCDKGTLEQWMRNRNQSKVDKALILDLYEQIVTGVEYIHSKGLIHRDLKPGNIFLVDERHIKIGDFGLATALENDGKSRTRRTGTLQYMSPEQLFLKHYGKEVDIFALGLILAELLHTCFTESEKIKFFESLRKGDFSNDIFDNKEKSLLKKLLSEKPKDRPETSEILKTLAEWRNISEKKKRNTC</data>
+      <data key="d14">Eif2ak2</data>
+      <data key="d15">ENSMUSG00000024079.4</data>
+      <data key="d16">38.6806389165835</data>
+      <data key="d17">1.2566491255978</data>
+      <data key="d18">0.215522689805215</data>
+      <data key="d19">5.83070453850375</data>
+      <data key="d20">5.51938380294933e-09</data>
+      <data key="d21">1.26982259044092e-07</data>
+      <data key="d22">chr17</data>
+      <data key="d23">78852563</data>
+      <data key="d24">78882573</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Eif2ak2</data>
+      <data key="d28">ENSMUSG00000024079</data>
+      <data key="d29">2.3894012184993305</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Zbp1">
+      <data key="d0">Zbp1</data>
+      <data key="d1">Zbp1, 2010010H03Rik, Dai, Dlm1, mZaDLM</data>
+      <data key="d2">gene</data>
+      <data key="d3">668.0</data>
+      <data key="d4">449.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:58203</data>
+      <data key="d12">ENSMUSG00000027514</data>
+      <data key="d13">MAEAPVDLSTGDNLEQKILQVLSDDGGPVKIGQLVKKCQVPKKTLNQVLYRLKKEDRVSSPEPATWSIGGAASGDGAPAIPENSSAQPSLDERILRFLEANGPHRALHIAKALGMTTAKEVNPLLYSMRNKHLLSYDGQTWKIYHSRQEGQDIVLPCSPGCPRTHHVDQAGLEPTEIFLLLPIKFWD</data>
+      <data key="d14">Zbp1</data>
+      <data key="d15">ENSMUSG00000027514.14</data>
+      <data key="d16">2.29347913859026</data>
+      <data key="d17">1.77981488037088</data>
+      <data key="d18">0.501330172867623</data>
+      <data key="d19">3.55018504110831</data>
+      <data key="d20">0.0003849604641829</data>
+      <data key="d21">0.0028168922979208</data>
+      <data key="d22">chr2</data>
+      <data key="d23">173206611</data>
+      <data key="d24">173218923</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Zbp1</data>
+      <data key="d28">ENSMUSG00000027514</data>
+      <data key="d29">3.433821106214404</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Ripk3">
+      <data key="d0">Ripk3</data>
+      <data key="d1">Ripk3, 2610528K09Rik, Rip3</data>
+      <data key="d2">gene</data>
+      <data key="d3">718.0</data>
+      <data key="d4">330.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:56532</data>
+      <data key="d12">ENSMUSG00000022221</data>
+      <data key="d13">MSSVKLWPTGASAVPLVSREELKKLEFVGKGGFGVVFRAHHRTWNHDVAVKIVNSKKISWEVKAMVNLRNENVLLLLGVTEDLQWDFVSGQALVTRFMENGSLAGLLQPECPRPWPLLCRLLQEVVLGMCYLHSLNPPLLHRDLKPSNILLDPELHAKLADFGLSTFQGGSQSGSGSGSGSRDSGGTLAYLDPELLFDVNLKASKASDVYSFGILVWAVLAGREAELVDKTSLIRETVCDRQSRPPLTELPPGSPETPGLEKLKELMIHCWGSQSENRPSFQDCEPKTNEVYNLVKDKVDAAVSEVKHYLSQHRSSGRNLSAREPSQRGTEMDCPRETMVSKMLDRLHLEEPSGPVPGKCPERQAQDTSVGPATPARTSSDPVAGTPQIPHTLPFRGTTPGPVFTETPGPHPQRNQGDGRHGTPWYPWTPPNPMTGPPALVFNNCSEVQIGNYNSLVAPPRTTASSSAKYDQAQFGRGRGWQPFHK</data>
+      <data key="d14">Ripk3</data>
+      <data key="d15">ENSMUSG00000022221.14</data>
+      <data key="d16">4.7752912854287</data>
+      <data key="d17">2.70261782311005</data>
+      <data key="d18">0.47532749642486</data>
+      <data key="d19">5.6858015651053</data>
+      <data key="d20">1.30200507940887e-08</data>
+      <data key="d21">2.79270074109515e-07</data>
+      <data key="d22">chr14</data>
+      <data key="d23">55784994</data>
+      <data key="d24">55788865</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ripk3</data>
+      <data key="d28">ENSMUSG00000022221</data>
+      <data key="d29">6.509820769142813</data>
+      <data key="d30">0.1111111111111111</data>
+    </node>
+    <node id="Cybb">
+      <data key="d0">Cybb</data>
+      <data key="d1">Cybb, CGD91-phox, Cgd, Cyd, Nox2, gp91-1, gp91phox</data>
+      <data key="d2">gene</data>
+      <data key="d3">845.0</data>
+      <data key="d4">112.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:13058</data>
+      <data key="d12">ENSMUSG00000015340</data>
+      <data key="d13">MGNWAVNEGLSIFVILVWLGLNVFLFINYYKVYDDGPKYNYTRKLLGSALALARAPAACLNFNCMLILLPVCRNLLSFLRGSSACCSTRIRRQLDRNLTFHKMVAWMIALHTAIHTIAHLFNVEWCVNARVGISDRYSIALSDIGDNENEEYLNFAREKIKNPEGGLYVAVTRLAGITGIVITLCLILIITSSTKTIRRSYFEVFWYTHHLFVIFFIGLAIHGAERIVRGQTAESLEEHNLDICADKIEEWGKIKECPVPKFAGNPPMTWKWIVGPMFLYLCERLVRFWRSQQKVVITKVVTHPFKTIELQMKKKGFKMEVGQYIFVKCPKVSKLEWHPFTLTSAPEEDFFSIHIRIVGDWTEGLFNACGCDKQEFQDAWKLPKIAVDGPFGTASEDVFSYEVVMLVGAGIGVTPFASILKSVWYKYCDNATSLKLKKIYFYWLCRDTHAFEWFADLLQLLETQMQERNNANFLSYNIYLTGWDESQANHFAVHHDEEKDVITGLKQKTLYGRPNWDNEFKTIASEHPNTTIGVFLCGPEALAETLSKQSISNSESGPRGVHFIFNKENF</data>
+      <data key="d14">Cybb</data>
+      <data key="d15">ENSMUSG00000015340.10</data>
+      <data key="d16">50.6333351968871</data>
+      <data key="d17">3.22570369379313</data>
+      <data key="d18">0.341629457639498</data>
+      <data key="d19">9.44211227006375</data>
+      <data key="d20">3.65339038888648e-21</data>
+      <data key="d21">3.8393644825518996e-19</data>
+      <data key="d22">chrX</data>
+      <data key="d23">9435251</data>
+      <data key="d24">9487771</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Cybb</data>
+      <data key="d28">ENSMUSG00000015340</data>
+      <data key="d29">9.354779794764529</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Mlkl">
+      <data key="d0">Mlkl</data>
+      <data key="d1">Mlkl, 9130019I15Rik</data>
+      <data key="d2">gene</data>
+      <data key="d3">845.0</data>
+      <data key="d4">526.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:74568</data>
+      <data key="d12">ENSMUSG00000012519</data>
+      <data key="d13">MDKLGQIIKLGQLIYEQCEKMKYCRKQCQRLGNRVHGLLQPLQRLQAQGKKNLPDDITAALGRFDEVLKEANQQIEKFSKKSHIWKFVSVGNDKILFHEVNEKLRDVWEELLLLLQVYHWNTVSDVSQPASWQQEDRQDAEEDGNENMKVILMQLQISVEEINKTLKQCSLKPTQEIPQDLQIKEIPKEHLGPPWTKLKTSKMSTIYRGEYHRSPVTIKVFNNPQAESVGIVRFTFNDEIKTMKKFDSPNILRIFGICIDQTVKPPEFSIVMEYCELGTLRELLDREKDLTMSVRSLLVLRAARGLYRLHHSETLHRNISSSSFLVAGGYQVKLAGFELSKTQNSISRTAKSTKAERSSSTIYVSPERLKNPFCLYDIKAEIYSFGIVLWEIATGKIPFEGCDSKKIRELVAEDKKQEPVGQDCPELLREIINECRAHEPSQRPSVDGRSLSGRERILERLSAVEESTDKKV</data>
+      <data key="d14">Mlkl</data>
+      <data key="d15">ENSMUSG00000012519.14</data>
+      <data key="d16">2.19725586556078</data>
+      <data key="d17">1.27491986727099</data>
+      <data key="d18">0.492898081719066</data>
+      <data key="d19">2.58657908106375</data>
+      <data key="d20">0.0096933924141901</data>
+      <data key="d21">0.0421801738572533</data>
+      <data key="d22">chr8</data>
+      <data key="d23">111311796</data>
+      <data key="d24">111338177</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Mlkl</data>
+      <data key="d28">ENSMUSG00000012519</data>
+      <data key="d29">2.4198537668921514</data>
+      <data key="d30">0.05555555555555555</data>
+    </node>
+    <node id="Il1b">
+      <data key="d0">Il1b</data>
+      <data key="d1">Il1b, IL-1beta, Il-1b</data>
+      <data key="d2">gene</data>
+      <data key="d3">1101.0</data>
+      <data key="d4">615.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04217</data>
+      <data key="d11">mmu:16176</data>
+      <data key="d12">ENSMUSG00000027398</data>
+      <data key="d13">MATVPELNCEMPPFDSDENDLFFEVDGPQKMKGCFQTFDLGCPDESIQLQISQQHINKSFRQAVSLIVAVEKLWQLPVSFPWTFQDEDMSTFFSFIFEEEPILCDSWDDDDNLLVCDVPIRQLHYRLRDEQQKSLVLSDPYELKALHLNGQNINQQVIFSMSFVQGEPSNDKIPVALGLKGKNLYLSCVMKDGTPTLQLESVDPKQYPKKKMEKRFVFNKIEVKSKVEFESAEFPNWYISTSQAEHKPVFLGNNSGQDIIDFTMESVSS</data>
+      <data key="d14">Il1b</data>
+      <data key="d15">ENSMUSG00000027398.13</data>
+      <data key="d16">7.86719541221298</data>
+      <data key="d17">1.52865287706332</data>
+      <data key="d18">0.393923105251827</data>
+      <data key="d19">3.88058698939754</data>
+      <data key="d20">0.0001042046655687</data>
+      <data key="d21">0.0009053727341248</data>
+      <data key="d22">chr2</data>
+      <data key="d23">129364569</data>
+      <data key="d24">129371139</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Il1b</data>
+      <data key="d28">ENSMUSG00000027398</data>
+      <data key="d29">2.885163098943185</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Cdkn1a">
+      <data key="d0">Cdkn1a</data>
+      <data key="d1">Cdkn1a, CAP20, CDKI, CIP1, Cdkn1, P21, SDI1, Waf1, mda6, p21Cip1, p21WAF</data>
+      <data key="d2">gene</data>
+      <data key="d3">564.0</data>
+      <data key="d4">117.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:12575</data>
+      <data key="d12">ENSMUSG00000023067</data>
+      <data key="d13">MSNPGDVRPVPHRSKVCRCLFGPVDSEQLRRDCDALMAGCLQEARERWNFDFVTETPLEGNFVWERVRSLGLPKVYLSPGSRSRDDLGGDKRPSTSSALLQGPAPEDHVALSLSCTLVSERPEDSPGGPGTSQGRKRRQTSLTDFYHSKRRLVFCKRKP</data>
+      <data key="d14">Cdkn1a</data>
+      <data key="d15">ENSMUSG00000023067.14</data>
+      <data key="d16">168.368762431799</data>
+      <data key="d17">1.33565808369793</data>
+      <data key="d18">0.182915807962792</data>
+      <data key="d19">7.3020374705374</data>
+      <data key="d20">2.83442301643216e-13</data>
+      <data key="d21">1.21717224933564e-11</data>
+      <data key="d22">chr17</data>
+      <data key="d23">29090975</data>
+      <data key="d24">29100727</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Cdkn1a</data>
+      <data key="d28">ENSMUSG00000023067</data>
+      <data key="d29">2.5239058318930687</data>
+      <data key="d30">0.25</data>
+    </node>
+    <node id="Cdk2">
+      <data key="d0">Cdk2</data>
+      <data key="d1">Cdk2, A630093N05Rik</data>
+      <data key="d2">gene</data>
+      <data key="d3">693.0</data>
+      <data key="d4">141.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:12566</data>
+      <data key="d12">ENSMUSG00000025358</data>
+      <data key="d13">MENFQKVEKIGEGTYGVVYKAKNKLTGEVVALKKIRLDTETEGVPSTAIREISLLKELNHPNIVKLLDVIHTENKLYLVFEFLHQDLKKFMDASALTGIPLPLIKSYLFQLLQGLAFCHSHRVLHRDLKPQNLLINAEGSIKLADFGLARAFGVPVRTYTHEVVTLWYRAPEILLGCKYYSTAVDIWSLGCIFAEMHLVCTQHHAKCCGEHRRNGRHSLCPLCSYLEVAASQGGGMTAVSAPHPVTRRALFPGDSEIDQLFRIFRTLGTPDEVVWPGVTSMPDYKPSFPKWARQDFSKVVPPLDEDGRSLLSQMLHYDPNKRISAKAALAHPFFQDVTKPVPHLRL</data>
+      <data key="d14">Cdk2</data>
+      <data key="d15">ENSMUSG00000025358.16</data>
+      <data key="d16">32.032609677098</data>
+      <data key="d17">1.37161880718702</data>
+      <data key="d18">0.346427056181704</data>
+      <data key="d19">3.95932933849022</data>
+      <data key="d20">7.51605310883044e-05</data>
+      <data key="d21">0.0006775138735559</data>
+      <data key="d22">chr10</data>
+      <data key="d23">128697938</data>
+      <data key="d24">128705031</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Cdk2</data>
+      <data key="d28">ENSMUSG00000025358</data>
+      <data key="d29">2.5876075139277392</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Cdkn2a">
+      <data key="d0">Cdkn2a</data>
+      <data key="d1">Cdkn2a, ARF-INK4a, Arf, INK4a-ARF, Ink4a/Arf, MTS1, Pctr1, p16, p16(INK4a), p16INK4a, p19&lt;ARF&gt;, p19ARF</data>
+      <data key="d2">gene</data>
+      <data key="d3">855.0</data>
+      <data key="d4">421.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04218</data>
+      <data key="d11">mmu:12578</data>
+      <data key="d12">ENSMUSG00000044303</data>
+      <data key="d13">MESAADRLARAAAQGRVHDVRALLEAGVSPNAPNSFGRTPIQVMMMGNVHVAALLLNYGADSNCEDPTTFSRPVHDAAREGFLDTLVVLHGSGARLDVRDAWGRLPLDLAQERGHQDIVRYLRSAGCSLCSAGWSLCTAGNVAQTDGHSFSSSTPRALELRGQSQEQS</data>
+      <data key="d14">Cdkn2a</data>
+      <data key="d15">ENSMUSG00000044303.6</data>
+      <data key="d16">5.32362488551754</data>
+      <data key="d17">2.26750891530856</data>
+      <data key="d18">0.456669904911507</data>
+      <data key="d19">4.96531278046</data>
+      <data key="d20">6.85904338334344e-07</data>
+      <data key="d21">1.04856121546682e-05</data>
+      <data key="d22">chr4</data>
+      <data key="d23">89274470</data>
+      <data key="d24">89294653</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Cdkn2a</data>
+      <data key="d28">ENSMUSG00000044303</data>
+      <data key="d29">4.814910279525054</data>
+      <data key="d30">0.125</data>
+    </node>
+    <node id="Ccnd1">
+      <data key="d0">Ccnd1</data>
+      <data key="d1">Ccnd1, CycD1, Cyl-1, PRAD1, bcl-1, cD1...</data>
+      <data key="d2">gene</data>
+      <data key="d3">693.0</data>
+      <data key="d4">79.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:12443</data>
+      <data key="d12">ENSMUSG00000070348</data>
+      <data key="d13">MEHQLLCCEVETIRRAYPDTNLLNDRVLRAMLKTEETCAPSVSYFKCVQKEIVPSMRKIVATWMLEVCEEQKCEEEVFPLAMNYLDRFLSLEPLKKSRLQLLGATCMFVASKMKETIPLTAEKLCIYTDNSIRPEELLQMELLLVNKLKWNLAAMTPHDFIEHFLSKMPEADENKQTIRKHAQTFVALCATDVKFISNPPSMVAAGSVVAAMQGLNLGSPNNFLSCYRTTHFLSRVIKCDPDCLRACQEQIEALLESSLRQAQQNVDPKATEEEGEVEEEAGLACTPTDVRDVDI</data>
+      <data key="d14">Ccnd1</data>
+      <data key="d15">ENSMUSG00000070348.5</data>
+      <data key="d16">242.885961236058</data>
+      <data key="d17">1.67514143737811</data>
+      <data key="d18">0.149986842372903</data>
+      <data key="d19">11.1685892634056</data>
+      <data key="d20">5.80962360914791e-29</data>
+      <data key="d21">1.20293721324862e-26</data>
+      <data key="d22">chr7</data>
+      <data key="d23">144929930</data>
+      <data key="d24">144939925</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ccnd1</data>
+      <data key="d28">ENSMUSG00000070348</data>
+      <data key="d29">3.1935066116320914</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Ccna1">
+      <data key="d0">Ccna1</data>
+      <data key="d1">Ccna1...</data>
+      <data key="d2">gene</data>
+      <data key="d3">1012.0</data>
+      <data key="d4">526.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04218</data>
+      <data key="d11">mmu:12427</data>
+      <data key="d12">ENSMUSG00000027793</data>
+      <data key="d13">MHRQSSKSGVALPPVGQGPDACQMLSRAQLGQDPPQRTVLGVLTENEQYRRTCGQEITAIRCFSGSENVFPAAGKKVLSDHGVNEPAKRGFDIYMDDPEQGDRDTCSGKEGIIFEDVYEVDTSMLKSDLHFLLDFNTVSPMLVDPTTHAQSEEATDFGSDVINVTEYAEEIHRYLREAEVRHRPKAHYMRKQPDITEGMRAILVDWLVEVGEEYKLRTETLYLAVNFLDRFLSCMSVLRGKLQLVGTAAILLASKYEEIYPPDVDEFVYITDDTYTKRQLLRMEHLLLKVLAFDLTVPTTNQFLLQYLRRQGVCIRTENLAKYVAELSLLEADPFLKYLPSLVAAAAYCLANYIVNRHFWPETLAAFTGYSLNEIVPCLSELHKACLSIPHRPQQAIREKYKASKYLHVSLMEPPVVLPLQ</data>
+      <data key="d14">Ccna1</data>
+      <data key="d15">ENSMUSG00000027793.6</data>
+      <data key="d16">4.65525428095134</data>
+      <data key="d17">-1.10620864329916</data>
+      <data key="d18">0.421957241801771</data>
+      <data key="d19">-2.62161312500673</data>
+      <data key="d20">0.0087514712630377</data>
+      <data key="d21">0.0388493989649561</data>
+      <data key="d22">chr3</data>
+      <data key="d23">55045468</data>
+      <data key="d24">55055501</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ccna1</data>
+      <data key="d28">ENSMUSG00000027793</data>
+      <data key="d29">0.46451315413618555</data>
+      <data key="d30">0.25</data>
+    </node>
+    <node id="Mybl2">
+      <data key="d0">Mybl2</data>
+      <data key="d1">Mybl2, B-Myb, Bmyb</data>
+      <data key="d2">gene</data>
+      <data key="d3">1130.0</data>
+      <data key="d4">526.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04218</data>
+      <data key="d11">mmu:17865</data>
+      <data key="d12">ENSMUSG00000017861</data>
+      <data key="d13">MSRRTRCEDLDELHYQDVDSDLLEQRDNRCKVKWTHEEDEQLRALVRQFGQQDWKFLASHFPNRTDQQCQYRWLRVLNPDLVKGPWTKEEDQKVIELVKKYGTKQWTLIAKHLKGRLGKQCRERWHNHLNPEVKKSCWTEEEDRIICEAHKVLGNRWAEIAKMLPGRTDNAVKNHWNSTIKRKVDTGGFPAESRDCKPVYLLLELEDKEQHQGVQPVDGQGSLVSSWPLVPSIVKEESSEEEIAIAATSAKELGHEPVPADLGEVRTPEPPESLKREYQEFSSPETSLPYKWVVEAANLLIPAVGSSLSEALDLIESDPDAWCDLSKFDLPEEPSTEGSVVSSPVQPQTSQQQQEEALQSSQQAATPGPSVTEYRLDGHTISDLSRSSRGELIPISPSTEFGGSGIGTPPSVLKRQKKRRVALSPVTENSASLSFLDSCNSLTPKSTPVKTLPFSPSQFLNFWNKQDTLELESPSLTSTPVCSQKVVVTTPLHRDKTPLHQKYPSSEVLPDQKYSMDNTPHTPTPFKNALEKYGPLKPLPQTPHLEEDLKEVLRSEAGMELIIEDDMRPEKQKRKPGLRRSPIKKVRKSLALDIMDEDGKLMSSTMPKPLSLPTSVTPSSCGFTSPGSKEGNSLLNQGFLQAKPEKVVAAQKTRSHIPTPAPMTHAWKTVACGGTKDQLFMQEKARQLLSRLKSSHTSRTLILS</data>
+      <data key="d14">Mybl2</data>
+      <data key="d15">ENSMUSG00000017861.11</data>
+      <data key="d16">8.99610696083651</data>
+      <data key="d17">1.3770260970161</data>
+      <data key="d18">0.42978235051628</data>
+      <data key="d19">3.20400801792334</data>
+      <data key="d20">0.0013552870229114</data>
+      <data key="d21">0.0083181696685963</data>
+      <data key="d22">chr2</data>
+      <data key="d23">163054686</data>
+      <data key="d24">163084688</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Mybl2</data>
+      <data key="d28">ENSMUSG00000017861</data>
+      <data key="d29">2.597324188222014</data>
+      <data key="d30">0.0</data>
+    </node>
+    <node id="Ets1">
+      <data key="d0">Ets1</data>
+      <data key="d1">Ets1, D230050P06, Ets-1, Tpl1, p54, vs</data>
+      <data key="d2">gene</data>
+      <data key="d3">742.0</data>
+      <data key="d4">421.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04218</data>
+      <data key="d11">mmu:23871</data>
+      <data key="d12">ENSMUSG00000032035</data>
+      <data key="d13">MKAAVDLKPTLTIIKTEKVDLELFPSPDMECADVPLLTPSSKEMMSQALKATFSGFTKEQQRLGIPKDPRQWTETHVRDWVMWAVNEFSLKGVDFQKFCMSGAALCALGKECFLELAPDFVGDILWEHLEILQKEDVKPYQVNGANPTYPESCYTSDYFISYGIEHAQCVPPSEFSEPSFITESYQTLHPISSEELLSLKYENDYPSVILQDPLQTDTLQTDYFAIKQEVLTPDNMCLGRASRGKLGGQDSFESVESYDSCDRLTQSWSSQSSFNSLQRVPSYDSFDYEDYPAALPNHKPKGTFKDYVRDRADLNKDKPVIPAAALAGYTGSGPIQLWQFLLELLTDKSCQSFISWTGDGWEFKLSDPDEVARRWGKRKNKPKMNYEKLSRGLRYYYDKNIIHKTAGKRYVYRFVCDLQSLLGYTPEELHAMLDVKPDAD</data>
+      <data key="d14">Ets1</data>
+      <data key="d15">ENSMUSG00000032035.16</data>
+      <data key="d16">122.348979084024</data>
+      <data key="d17">1.31537286236848</data>
+      <data key="d18">0.196625939534186</data>
+      <data key="d19">6.68972194352709</data>
+      <data key="d20">2.23595034209383e-11</data>
+      <data key="d21">7.41052765518356e-10</data>
+      <data key="d22">chr9</data>
+      <data key="d23">32636220</data>
+      <data key="d24">32757820</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ets1</data>
+      <data key="d28">ENSMUSG00000032035</data>
+      <data key="d29">2.4886664155888187</data>
+      <data key="d30">0.125</data>
+    </node>
+    <node id="Cdk1">
+      <data key="d0">Cdk1</data>
+      <data key="d1">Cdk1, Cdc2, Cdc2a, p34&lt;CDC2&gt;</data>
+      <data key="d2">gene</data>
+      <data key="d3">693.0</data>
+      <data key="d4">188.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:12534</data>
+      <data key="d12">ENSMUSG00000019942</data>
+      <data key="d13">MEDYIKIEKIGEGTYGVVYKGRHRVTGQIVAMKKIRLESEEEGVPSTAIREISLLKELRHPNIVSLQDVLMQDSRLYLIFEFLSMDLKKYLDSIPPGQFMDSSLVKSYLHQILQGIVFCHSRRVLHRDLKPQNLLIDDKGTIKLADFGLARAFGIPIRVYTHEVVTLWYRSPEVLLGSARYSTPVDIWSIGTIFAELATKKPLFHGDSEIDQLFRIFRALGTPNNEVWPEVESLQDYKNTFPKWKPGSLASHVKNLDENGLDLLSKMLVYDPAKRISGKMALKHPYFDDLDNQIKKM</data>
+      <data key="d14">Cdk1</data>
+      <data key="d15">ENSMUSG00000019942.13</data>
+      <data key="d16">130.953247444411</data>
+      <data key="d17">5.35390565748335</data>
+      <data key="d18">0.32595133873009</data>
+      <data key="d19">16.4254752821149</data>
+      <data key="d20">1.25695086207592e-60</data>
+      <data key="d21">5.25732267571876e-57</data>
+      <data key="d22">chr10</data>
+      <data key="d23">69335145</data>
+      <data key="d24">69352938</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Cdk1</data>
+      <data key="d28">ENSMUSG00000019942</data>
+      <data key="d29">40.8965051796896</data>
+      <data key="d30">0.125</data>
+    </node>
+    <node id="Ccnb2">
+      <data key="d0">Ccnb2</data>
+      <data key="d1">Ccnb2, CycB2...</data>
+      <data key="d2">gene</data>
+      <data key="d3">693.0</data>
+      <data key="d4">171.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:12442</data>
+      <data key="d12">ENSMUSG00000032218</data>
+      <data key="d13">MALLRRPTVSSDLKNIDTEVIPKAKSHVTIRRAVLEEIGNKVRNRTTQVAKKPQNTKVPALPTKVTNVNKQPKPTASVKPVQMEALAPKDRPPAPEDVSMKEESLCQAFSDALLCKIEDIDNEDRENPQLCSDYVKDIYQYLRQLEVLQSINPHFLDGRDINGRMRAILVDWLVQVHSKFRLLQETLYMCIAIMDRFLQAQLVCRKKLQLVGITALLLASKYEEMFSPNIEDFVYITDNAYTSSQIREMETLILKELKFELGRPLPLHFLRRASKAGEVDVEQHTLAKYLMELTLVDYDMVHYHPSQVAAAASCLSQKVLGQGKWNLKQQYYTGYMESEVLEVMQHMAKNVVKVNDNRTKFIAVKNKYASSRLLKISTIPQLNSKIIKDLASPLLGSP</data>
+      <data key="d14">Ccnb2</data>
+      <data key="d15">ENSMUSG00000032218.7</data>
+      <data key="d16">23.2461957728075</data>
+      <data key="d17">2.92640356617001</data>
+      <data key="d18">0.313164168230677</data>
+      <data key="d19">9.34463090941623</data>
+      <data key="d20">9.22105174224324e-21</data>
+      <data key="d21">9.13297834472376e-19</data>
+      <data key="d22">chr9</data>
+      <data key="d23">70407691</data>
+      <data key="d24">70421547</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Ccnb2</data>
+      <data key="d28">ENSMUSG00000032218</data>
+      <data key="d29">7.602129314953198</data>
+      <data key="d30">0.125</data>
+    </node>
+    <node id="Igfbp3">
+      <data key="d0">Igfbp3</data>
+      <data key="d1">Igfbp3, IGFBP-3, IGgfbp3</data>
+      <data key="d2">gene</data>
+      <data key="d3">564.0</data>
+      <data key="d4">508.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:16009</data>
+      <data key="d12">ENSMUSG00000020427</data>
+      <data key="d13">MHPARPALWAAALTALTLLRGPPVARAGAGAVGAGPVVRCEPCDARALSQCAPPPTAPACTELVREPGCGCCLTCALREGDACGVYTERCGTGLRCQPRPAEQYPLRALLNGRGFCANASAAGSLSTYLPSQPAPGNISESEEEHNAGSVESQVVPSTHRVTDSKFHPLHAKMDVIKKGHARDSQRYKVDYESQSTDTQNFSSESKRETEYGPCRREMEDTLNHLKFLNVLSPRGVHIPNCDKKGFYKKKQCRPSKGRKRGFCWCVDKYGQPLPGYDTKGKDDVHCLSVQSQ</data>
+      <data key="d14">Igfbp3</data>
+      <data key="d15">ENSMUSG00000020427.11</data>
+      <data key="d16">123.304024845366</data>
+      <data key="d17">1.7969822937757</data>
+      <data key="d18">0.339941133818124</data>
+      <data key="d19">5.28615726373709</data>
+      <data key="d20">1.24912517966565e-07</data>
+      <data key="d21">2.21756832617553e-06</data>
+      <data key="d22">chr11</data>
+      <data key="d23">7206085</data>
+      <data key="d24">7213923</data>
+      <data key="d25">-</data>
+      <data key="d26">nan</data>
+      <data key="d27">Igfbp3</data>
+      <data key="d28">ENSMUSG00000020427</data>
+      <data key="d29">3.4749260925052563</data>
+      <data key="d30">0.125</data>
+    </node>
+    <node id="Igf1">
+      <data key="d0">Igf1</data>
+      <data key="d1">Igf1, C730016P09Rik, Igf-1, Igf-I</data>
+      <data key="d2">gene</data>
+      <data key="d3">674.0</data>
+      <data key="d4">508.0</data>
+      <data key="d5">17.0</data>
+      <data key="d6">46.0</data>
+      <data key="d7">rectangle</data>
+      <data key="d8">#BFFFBF</data>
+      <data key="d9">#000000</data>
+      <data key="d10">path:mmu04115</data>
+      <data key="d11">mmu:16000</data>
+      <data key="d12">ENSMUSG00000020053</data>
+      <data key="d13">MGKISSLPTQLFKICLCDFLKIKIHIMSSSHLFYLALCLLTFTSSTTAGPETLCGAELVDALQFVCGPRGFYFNKPTGYGSSIRRAPQTGIVDECCFRSCDLRRLEMYCAPLKPTKAARSIRAQRHTDMPKTQKEVHLKNTSRGSAGNKTYRM</data>
+      <data key="d14">Igf1</data>
+      <data key="d15">ENSMUSG00000020053.18</data>
+      <data key="d16">184.569188501729</data>
+      <data key="d17">1.23762803114132</data>
+      <data key="d18">0.201579247320287</data>
+      <data key="d19">6.13965994810399</data>
+      <data key="d20">8.26983184403318e-10</data>
+      <data key="d21">2.20595654788605e-08</data>
+      <data key="d22">chr10</data>
+      <data key="d23">87858264</data>
+      <data key="d24">87937042</data>
+      <data key="d25">+</data>
+      <data key="d26">nan</data>
+      <data key="d27">Igf1</data>
+      <data key="d28">ENSMUSG00000020053</data>
+      <data key="d29">2.358105117862087</data>
+      <data key="d30">0.0</data>
+    </node>
+    <edge source="Tnfrsf1a" target="Ripk1">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tnfrsf1a</data>
+      <data key="d36">Ripk1</data>
+    </edge>
+    <edge source="Tnfrsf1a" target="Fadd">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tnfrsf1a</data>
+      <data key="d36">Fadd</data>
+    </edge>
+    <edge source="Ripk1" target="Ripk3">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33">+p</data>
+      <data key="d34">PPrel</data>
+      <data key="d35">Ripk1</data>
+      <data key="d36">Ripk3</data>
+    </edge>
+    <edge source="Fadd" target="Casp8">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Fadd</data>
+      <data key="d36">Casp8</data>
+    </edge>
+    <edge source="Casp8" target="Casp6">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp8</data>
+      <data key="d36">Casp6</data>
+    </edge>
+    <edge source="Casp8" target="Casp7">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp8</data>
+      <data key="d36">Casp7</data>
+    </edge>
+    <edge source="Casp8" target="Ripk1">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp8</data>
+      <data key="d36">Ripk1</data>
+    </edge>
+    <edge source="Casp8" target="Ripk3">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp8</data>
+      <data key="d36">Ripk3</data>
+    </edge>
+    <edge source="Casp8" target="Fadd">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp8</data>
+      <data key="d36">Fadd</data>
+    </edge>
+    <edge source="Tnfrsf10b" target="Fadd">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tnfrsf10b</data>
+      <data key="d36">Fadd</data>
+    </edge>
+    <edge source="Tnfrsf10b" target="Ripk1">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tnfrsf10b</data>
+      <data key="d36">Ripk1</data>
+    </edge>
+    <edge source="Tnfrsf10b" target="Casp8">
+      <data key="d31">1</data>
+      <data key="d32">1</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tnfrsf10b</data>
+      <data key="d36">Casp8</data>
+    </edge>
+    <edge source="Fas" target="Fadd">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Fas</data>
+      <data key="d36">Fadd</data>
+    </edge>
+    <edge source="Tnf" target="Tnfrsf1a">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tnf</data>
+      <data key="d36">Tnfrsf1a</data>
+    </edge>
+    <edge source="Ctsb" target="Birc3">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Ctsb</data>
+      <data key="d36">Birc3</data>
+    </edge>
+    <edge source="Birc3" target="Casp7">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Birc3</data>
+      <data key="d36">Casp7</data>
+    </edge>
+    <edge source="Birc3" target="Ripk1">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33">+u</data>
+      <data key="d34">PPrel</data>
+      <data key="d35">Birc3</data>
+      <data key="d36">Ripk1</data>
+    </edge>
+    <edge source="Casp6" target="Actb">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp6</data>
+      <data key="d36">Actb</data>
+    </edge>
+    <edge source="Casp7" target="Actb">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp7</data>
+      <data key="d36">Actb</data>
+    </edge>
+    <edge source="Casp12" target="Casp7">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp12</data>
+      <data key="d36">Casp7</data>
+    </edge>
+    <edge source="Nlrp3" target="Pycard">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Nlrp3</data>
+      <data key="d36">Pycard</data>
+    </edge>
+    <edge source="Nlrp3" target="Casp1">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Nlrp3</data>
+      <data key="d36">Casp1</data>
+    </edge>
+    <edge source="Pycard" target="Nlrp3">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Pycard</data>
+      <data key="d36">Nlrp3</data>
+    </edge>
+    <edge source="Pycard" target="Casp1">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PComplex</data>
+      <data key="d35">Pycard</data>
+      <data key="d36">Casp1</data>
+    </edge>
+    <edge source="Casp1" target="Nlrp3">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp1</data>
+      <data key="d36">Nlrp3</data>
+    </edge>
+    <edge source="Casp1" target="Pycard">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PComplex</data>
+      <data key="d35">Casp1</data>
+      <data key="d36">Pycard</data>
+    </edge>
+    <edge source="Casp1" target="Il1b">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Casp1</data>
+      <data key="d36">Il1b</data>
+    </edge>
+    <edge source="Tlr4" target="Ticam2">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Tlr4</data>
+      <data key="d36">Ticam2</data>
+    </edge>
+    <edge source="Ticam2" target="Ticam1">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Ticam2</data>
+      <data key="d36">Ticam1</data>
+    </edge>
+    <edge source="Ticam1" target="Ripk3">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Ticam1</data>
+      <data key="d36">Ripk3</data>
+    </edge>
+    <edge source="Eif2ak2" target="Ripk1">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Eif2ak2</data>
+      <data key="d36">Ripk1</data>
+    </edge>
+    <edge source="Zbp1" target="Ripk3">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Zbp1</data>
+      <data key="d36">Ripk3</data>
+    </edge>
+    <edge source="Ripk3" target="Cybb">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Ripk3</data>
+      <data key="d36">Cybb</data>
+    </edge>
+    <edge source="Ripk3" target="Mlkl">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33">+p</data>
+      <data key="d34">PPrel</data>
+      <data key="d35">Ripk3</data>
+      <data key="d36">Mlkl</data>
+    </edge>
+    <edge source="Mlkl" target="Nlrp3">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Mlkl</data>
+      <data key="d36">Nlrp3</data>
+    </edge>
+    <edge source="Cdkn1a" target="Cdk2">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Cdkn1a</data>
+      <data key="d36">Cdk2</data>
+    </edge>
+    <edge source="Cdkn1a" target="Ccnd1">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Cdkn1a</data>
+      <data key="d36">Ccnd1</data>
+    </edge>
+    <edge source="Cdkn1a" target="Ccna1">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Cdkn1a</data>
+      <data key="d36">Ccna1</data>
+    </edge>
+    <edge source="Cdk2" target="Ccna1">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PComplex</data>
+      <data key="d35">Cdk2</data>
+      <data key="d36">Ccna1</data>
+    </edge>
+    <edge source="Cdk2" target="Mybl2">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33">+p</data>
+      <data key="d34">PPrel</data>
+      <data key="d35">Cdk2</data>
+      <data key="d36">Mybl2</data>
+    </edge>
+    <edge source="Cdkn2a" target="Ccnd1">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Cdkn2a</data>
+      <data key="d36">Ccnd1</data>
+    </edge>
+    <edge source="Ccna1" target="Cdk2">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PComplex</data>
+      <data key="d35">Ccna1</data>
+      <data key="d36">Cdk2</data>
+    </edge>
+    <edge source="Ccna1" target="Mybl2">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33">+p</data>
+      <data key="d34">PPrel</data>
+      <data key="d35">Ccna1</data>
+      <data key="d36">Mybl2</data>
+    </edge>
+    <edge source="Ets1" target="Cdkn2a">
+      <data key="d31">1</data>
+      <data key="d32">0</data>
+      <data key="d33">e</data>
+      <data key="d34">GErel</data>
+      <data key="d35">Ets1</data>
+      <data key="d36">Cdkn2a</data>
+    </edge>
+    <edge source="Cdk1" target="Ccnb2">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PComplex</data>
+      <data key="d35">Cdk1</data>
+      <data key="d36">Ccnb2</data>
+    </edge>
+    <edge source="Ccnb2" target="Cdk1">
+      <data key="d31">2</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PComplex</data>
+      <data key="d35">Ccnb2</data>
+      <data key="d36">Cdk1</data>
+    </edge>
+    <edge source="Igfbp3" target="Igf1">
+      <data key="d31">-1</data>
+      <data key="d32">0</data>
+      <data key="d33" />
+      <data key="d34">PPrel</data>
+      <data key="d35">Igfbp3</data>
+      <data key="d36">Igf1</data>
+    </edge>
+  </graph>
+</graphml>

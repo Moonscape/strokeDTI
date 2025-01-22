@@ -1,0 +1,16 @@
+name: stroke_dti
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - ipykernel
+  - pandas
+  - statannotations
+  - seaborn
+  - plotly
+  - pip
+  - setuptools
+  - pip:
+      - -e . # Install your package in editable mode
+      - ./modified_packages/keggx # Path to the modified package
