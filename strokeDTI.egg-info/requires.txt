@@ -6,3 +6,4 @@ bio
 reportlab
 networkx
 kaleido
+nbformat>=4.2.0

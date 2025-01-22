@@ -3,6 +3,7 @@ import os
 from strokeDTI.target_identification.pathway_merge import (
     combine_dataframes,
     combine_kegg_rna_seq,
+    save_node_importance,
 )
 from strokeDTI.target_identification.plot_merged_graph import (
     make_polar_plot,
@@ -10,6 +11,7 @@ from strokeDTI.target_identification.plot_merged_graph import (
 )
 import plotly.io as pio
 from pathlib import Path
+import networkx as nx
 
 
 def read_kegg(file_path):
@@ -89,6 +91,9 @@ def main():
         species=species,
         sequence_path=rna_seq_path,
     )
+
+    graphML = nx.read_graphml(root_path + "graph.net")
+    save_node_importance(root_path, graphML)
 
     print(f"Analysis complete. Results saved in {root_path}")
 

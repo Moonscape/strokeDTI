@@ -2,9 +2,9 @@
 
 Official implementation of **strokeDTI**, a tool designed for graph-based analysis of RNA-seq data and prediction of drug-target interactions.
 
-It was tested for cell death pathways, but in theory should work for most pathways with shared genes.
+Originally validated on stroke RNA-seq data with a focus on cell death pathways, **strokeDTI** can, in theory, be applied for other KEGG pathways with shared genes.
 
-![Graphical abstract](/strokeDTI/img/graphical_abstract_fig_1.png)
+![Graphical abstract](img/graphical_abstract_fig_1.png)
 
 ---
 
@@ -24,8 +24,10 @@ It was tested for cell death pathways, but in theory should work for most pathwa
 To set up the environment, use the following commands:
 
 ```
-git clone
-cd path/to/strokeDTI
+git clone https://github.com/Moonscape/strokeDTI.git
+
+cd strokeDTI
+
 conda env create -f environment.yml
 
 ```
@@ -68,10 +70,10 @@ identify_targets -s mouse -rna_seq data/galaxy_mouse.tabular -kegg data/kegg.txt
 
 1. CSV files of the kegg terms merged with Deseq2 data
 2. Merged network graph 1
-   ![Merged Graph 1](/strokeDTI/output/graph1.png)
+   ![Merged Graph 1](output/graph1.png)
 
 3. Merged network graph 2
-   ![Merged Graph 1](/strokeDTI/output/graph2.png)
+   ![Merged Graph 1](output/graph2.png)
 
 4. CSV files of node importance:
 
@@ -83,7 +85,11 @@ identify_targets -s mouse -rna_seq data/galaxy_mouse.tabular -kegg data/kegg.txt
 
 ## 2. DTI prediction
 
-Coming soon! (Details will be added in future updates)
+(Details will be added in future updates)
+
+## 3. Validation module
+
+(Details will be added in future updates)
 
 ## Cite us:
 
