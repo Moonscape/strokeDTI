@@ -2,3 +2,6 @@ strokeDTI.egg-info/
 modified_packages/keggx/keggx.egg-info/
 modified_packages/keggx/__pycache__/
 modified_packages/keggx/build/
+strokeDTI/__pycache__
+strokeDTI/target_identification/__pycache__
+strokeDTI/scripts/__pycache__

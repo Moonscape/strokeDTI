@@ -1,2 +1,0 @@
-[console_scripts]
-identify_targets = strokeDTI.scripts.identify_targets_cli:main
