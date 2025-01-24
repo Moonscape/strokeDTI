@@ -17,15 +17,21 @@ setup(
         "networkx",
         "kaleido",
         "nbformat>=4.2.0",
+        "torch",
+        "rdkit",
+        "scikit-learn",
+        "torch_geometric",
+        "torch_scatter",
     ],
     entry_points={
         "console_scripts": [
             "identify_targets=strokeDTI.scripts.identify_targets_cli:main",
+            "compute_dti=strokeDTI.scripts.compute_dti_cli:main",
         ],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.9",
 )
