@@ -1,4 +1,8 @@
 from setuptools import setup, find_packages
+import tarfile
+import urllib.request
+from setuptools.command.install import install
+import os
 
 setup(
     name="strokeDTI",
