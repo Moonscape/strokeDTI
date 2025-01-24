@@ -24,7 +24,7 @@ Originally validated on stroke RNA-seq data with a focus on cell death pathways,
 ### To set up the environment, use the following commands:
 
 ```
-git clone https://github.com/Moonscape/strokeDTI.git
+git clone --single-branch --branch main --no-tags https://github.com/Moonscape/strokeDTI.git
 
 cd strokeDTI
 
@@ -138,7 +138,7 @@ compute_dti \
 
 ## Cite us:
 
-If you use StrokeDTI in your research, please cite our work:
+If you use strokeDTI in your research, please cite our work:
 
 ```
 
