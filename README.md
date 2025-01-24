@@ -21,7 +21,7 @@ Originally validated on stroke RNA-seq data with a focus on cell death pathways,
 
 # Installation
 
-To set up the environment, use the following commands:
+### To set up the environment, use the following commands:
 
 ```
 git clone https://github.com/Moonscape/strokeDTI.git
@@ -32,7 +32,16 @@ conda env create -f environment.yml
 
 ```
 
-To remove the conda environment and the package
+### To download pretrained models:
+
+```
+conda activate stroke_dti
+
+python download_model.py
+
+```
+
+### To remove the conda environment and the package
 
 ```
 conda activate stroke_dti
