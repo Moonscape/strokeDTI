@@ -119,7 +119,7 @@ After identifying potential targets in the first module, you can predict drug-ta
      ```
 
 2. **Target List**
-   - **File:** `target_list.pickle`
+   - **File:** `sequence_dic.json`
    - **Format:** A dictionary mapping protein names to their amino acid sequences.
    - **Example:** Refer to `data/sequence_dic.json` for a sample structure.
 
