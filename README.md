@@ -32,20 +32,25 @@ conda env create -f environment.yml
 
 ```
 
-To remove the conda environment
+To remove the conda environment and the package
 
 ```
+conda activate stroke_dti
+
+pip uninstall strokeDTI
+
 conda deactivate
+
 conda env remove -n stroke_dti
 ```
 
-## Usage
+# Usage
 
-**strokeDTI** consists of three modules, which can be used independently.
+**strokeDTI** consists of different modules, which can be used independently.
 
-### 1. Target Identification Module
+## 1. Target Identification Module
 
-#### Input:
+### Input:
 
 1. **Deseq2 Data**: Processed RNA-seq data in `.tabular` format. The file must include the following headers:
 
@@ -57,7 +62,9 @@ conda env remove -n stroke_dti
    - KEGG pathways can be obtained from the official [KEGG website](https://www.genome.jp/kegg/pathway.html).
    - Example file: `strokeDTI/data/kegg.txt`.
 
-Target identification module usage example:
+### Usage Example
+
+To run the Target Identification module, follow these steps:
 
 ```
 conda activate stroke_dti
@@ -85,17 +92,48 @@ identify_targets -s mouse -rna_seq data/galaxy_mouse.tabular -kegg data/kegg.txt
 
 ## 2. DTI prediction
 
-(Details will be added in future updates)
+After identifying potential targets in the first module, you can predict drug-target interactions using our pretrained model, which supports five different architectures. This model accepts drug structures in SMILES format and protein sequences as amino acid sequences, aligning with many established frameworks.
 
-## 3. Validation module
+### Data Sources
 
-(Details will be added in future updates)
+- **SMILES:** Retrieve drug SMILES strings from the [ZINC database](https://zinc.docking.org/).
+- **Amino Acid Sequences:** Obtain protein sequences from [UniProt](https://www.uniprot.org/).
+
+### Inputs
+
+1. **Drug List**
+
+   - **File:** `drug_list.csv`
+   - **Format:** CSV with the following headers:
+     ```
+     drug_names,drug_smiles
+     ```
+
+2. **Target List**
+   - **File:** `target_list.pickle`
+   - **Format:** A dictionary mapping protein names to their amino acid sequences.
+   - **Example:** Refer to `data/sequence_dic.json` for a sample structure.
+
+### Usage Example
+
+To run the DTI prediction module, follow these steps:
+
+```
+conda activate stroke_dti
+
+compute_dti \
+--drug_csv data/drug_list_with_smiles_first_20.csv \
+--sequence_json data/sequence_dic.json \
+--output_dir output/
+```
 
 ## Cite us:
 
 If you use StrokeDTI in your research, please cite our work:
 
 ```
+
+Peng, Jing-Jie, et al. “Hybrid Approach for Drug-Target Interaction Predictions in Ischemic Stroke Models.” Artificial Intelligence in Medicine, vol. 161, 2025, p. 103067, https://doi.org/10.1016/j.artmed.2025.103067.
 
 ```
 
