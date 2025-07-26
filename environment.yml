@@ -10,9 +10,9 @@ dependencies:
   - statannotations
   - seaborn
   - plotly
-  - torch
   - pip
   - setuptools
   - pip:
+      - torch==2.5.1
       - -e . # Install your package in editable mode
       - ./modified_packages/keggx # Path to the modified package
