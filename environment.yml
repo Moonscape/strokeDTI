@@ -10,6 +10,7 @@ dependencies:
   - statannotations
   - seaborn
   - plotly
+  - torch
   - pip
   - setuptools
   - pip:
