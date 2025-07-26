@@ -21,7 +21,6 @@ setup(
         "networkx",
         "kaleido",
         "nbformat>=4.2.0",
-        "torch",
         "rdkit",
         "scikit-learn",
         "torch_geometric",
