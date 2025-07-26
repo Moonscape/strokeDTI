@@ -12,7 +12,7 @@ dependencies:
   - plotly
   - pip
   - setuptools
+  - pytorch=2.5.1
   - pip:
-      - torch==2.5.1
       - -e . # Install your package in editable mode
       - ./modified_packages/keggx # Path to the modified package
